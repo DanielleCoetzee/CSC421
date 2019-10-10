@@ -1,0 +1,63 @@
+Chemical Thermodynamics: Code developement
+
+Code determines the equilibrium composition of specified system components over a given temperature range. 
+The components and respective component amounts must be given in the input cell and then the code can be run to obtain the system equilibrium composition curves.
+
+The current Excel spreedsheat only contains the Gibbs free energy of formation of methane, water, hydrogen, carbon dioxide and carbon monoxide data from the NIST-JANAF tables. 
+Along with the Excel spreedsheat data, the Cantera database used for initial guess values extend to the following components:
+
+[<Species H2>,
+ <Species H>,
+ <Species O>,
+ <Species O2>,
+ <Species OH>,
+ <Species H2O>,
+ <Species HO2>,
+ <Species H2O2>,
+ <Species C>,
+ <Species CH>,
+ <Species CH2>,
+ <Species CH2(S)>,
+ <Species CH3>,
+ <Species CH4>,
+ <Species CO>,
+ <Species CO2>,
+ <Species HCO>,
+ <Species CH2O>,
+ <Species CH2OH>,
+ <Species CH3O>,
+ <Species CH3OH>,
+ <Species C2H>,
+ <Species C2H2>,
+ <Species C2H3>,
+ <Species C2H4>,
+ <Species C2H5>,
+ <Species C2H6>,
+ <Species HCCO>,
+ <Species CH2CO>,
+ <Species HCCOH>,
+ <Species N>,
+ <Species NH>,
+ <Species NH2>,
+ <Species NH3>,
+ <Species NNH>,
+ <Species NO>,
+ <Species NO2>,
+ <Species N2O>,
+ <Species HNO>,
+ <Species CN>,
+ <Species HCN>,
+ <Species H2CN>,
+ <Species HCNN>,
+ <Species HCNO>,
+ <Species HOCN>,
+ <Species HNCO>,
+ <Species NCO>,
+ <Species N2>,
+ <Species AR>,
+ <Species C3H7>,
+ <Species C3H8>,
+ <Species CH2CHO>,
+ <Species CH3CHO>]
+
+In order to analyse systems that contain other components: their respective data first need to be added to both the Excel Spreadsheet and the Cantera database if it is not specified. 
